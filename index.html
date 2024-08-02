@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title> Decodificador </title>
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src="./assets/Frame 6.png" alt="icone_alura">
+    </header>
+
+    <main>
+        <section class="conteudo" id="conteudo">
+            <textarea id="texto" name="texto" rows="5" cols="30" placeholder="Digite seu texto"></textarea>
+            <div class="aviso">
+                <p id="erro"><img src="./assets/bi_exclamation-circle-fill.png" alt="!"> Apenas letras minúsculas e sem
+                    acento. </p>
+            </div>
+            <div class="botoes">
+                <button type="button" onclick="crip()" class="crip"> Criptografar </button>
+                <button type="button" onclick="desc()" class="desc"> Descriptografar </button>
+            </div>
+            <div class="subcorpo">
+                <img class="imagem" id="imagem" src="./assets/High quality products 1 1.png" alt="garota">
+                <div class="subcorpo-peq">
+                    <h2 class="titulo" id="titulo"> Nenhuma mensagem encontrada </h2>
+                    <p class="paragrafo" id="paragrafo"> Digite um texto que você deseja criptografar ou
+                        descriptografar. </p>
+                </div>
+                <div id="btn">
+                    <button type="button" onclick="textoCopiar()" class="copiar"> Copiar </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <hr>
+        <p> Desenvolvido por André Luis. </p>
+    </footer>
+    <script src="./JavaScript/app.js"></script>
+</body>
+
+</html>
